@@ -5,6 +5,8 @@ import { GifExpertApp } from './GifExpertApp';
 
 import './index.css';
 
-const divRoot = document.querySelector('#root');
+ReactDOM.render(
+  <GifExpertApp />,
+  document.getElementById('root')
+);
 
-ReactDOM.render(<GifExpertApp />, divRoot);
